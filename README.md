@@ -189,7 +189,7 @@ A tool used to escalate user privileges. If using `doas` then `persistent` optio
 ```
 permit persist :wheel
 ```
-If using `please` (pleaser in the AUR) then in /etc/please.ini you must have a section that allows the user to elevate to root to run stuff in /usr/bin). For example:
+If using `please` (pleaser in the AUR) then in /etc/please.ini you must have a section that allows the user to elevate to root to run stuff in /usr/bin. For example:
 ```
 [user_root]
 name=user
